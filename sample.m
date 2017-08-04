@@ -18,3 +18,5 @@ ylim([0,120]);
 legend('Cost1', 'Cost2', 'Location', 'Northwest');
 box on;
 grid on;
+%save as PDF use export_fig  https://www.mathworks.com/matlabcentral/fileexchange/23629-export-fig
+export_fig('fig/delay_perc', '-pdf','-transparent','-nocrop');  
