@@ -2,6 +2,7 @@ lambda = 0:10;
 cost1 = lambda.^2;
 cost2 = lambda.^2+10;
 
+
 figure;
 font_size = 22.4;
 line_width = 3;
